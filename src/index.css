@@ -1,0 +1,124 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+} 
+
+body {
+width: 550px;
+height: 868px;
+left: 664px;
+top: 53px;
+background: #23252C;
+}
+/*look at app-container, main needs to be changed*/
+.info { 
+  background: #1A1B21;
+  color: white;
+  width: 317px;
+  height: 399px;
+  top: 44px;
+  margin-left: 116px;
+  margin-top: -5px;
+  text-align: center;     
+}
+.Images {
+  /*position: absolute;*/
+  margin-left: 117px;
+  margin-top: 44px;   
+  width: 317px;
+  height: 317px;
+  border-radius: 10px 10px 0px 0px;    
+}
+/*h1 {
+position: absolute;
+width: 178.06px;
+height: 25.81px;
+left: 186px;
+margin-top: 5px;
+}*/
+
+h2 {
+height: 14.19px;
+top: 414px;
+font-weight: 400;
+font-size: 12.8px;
+line-height: 15px;
+text-align: center;
+color: #F3BF99;
+}
+
+.button-container { 
+  width: 247px;  
+  margin-left: 35px;
+  height: Hug (34px);  
+  margin-top: 50px;
+  background-color: white;
+  border-radius: 6px;
+  padding: 9px, 13px, 9px, 11px;
+  gap: 8px;
+}
+.info-link {
+position: absolute;
+width: 228px;
+height: 16px;
+left: 161px;
+top: 420px;
+}
+
+.btn-email {
+  box-sizing: border-box;
+  color: #161619;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  width: 247px;
+  height: 34px;
+  /*left: 150px;*/
+  top: 467px;
+  text-decoration: none;
+}
+#email {
+  margin-left: 5px;  
+}
+.about-title,
+.interests-title {
+ font-size: 22px; 
+ margin-bottom: 5px;
+}
+.text-about,
+.text-interests {
+  font-size: 14px;
+  color: #DCDCDC;
+}
+.about,
+.interests {
+text-align: left;
+position: absolute;
+width: 247px;
+height: 61px;
+left: 151px;
+}
+.about {
+top: 520px;
+}
+.interests {
+top: 665px;
+}
+.bottom-links {
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  font-size: 30px;
+  width: 317px;
+  height: 64px;
+  left: 116px;
+  top: 760px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center; 
+  position: absolute;
+  
+}
